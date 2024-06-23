@@ -204,6 +204,7 @@ header {
   grid-template-columns: repeat(auto-fill, 300px);
 
   justify-content: center;
+
   gap: 25px;
 
   section {
@@ -291,5 +292,12 @@ header {
   }
   section:hover {
     background-color: #e1e3f0 !important;
+  }
+}
+@media (min-width: 1632px) {
+  .small {
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
   }
 }
