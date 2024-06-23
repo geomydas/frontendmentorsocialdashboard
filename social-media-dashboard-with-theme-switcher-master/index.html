@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=inter:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>Social Media Dashboard <span> Total Followers: 23,004</span></h1>
+        </div>
+        <p>Light Mode</p>
+        <button onclick="myFunction()">Toggle</button>
+      </header>
+      <div class="large">
+        <section class="facebook">
+          <div></div>
+          <div>
+            <img src="images/icon-facebook.svg" alt="facebook" />
+            <h2>@nathanf</h2>
+          </div>
+          <h3>1987</h3>
+          <p>Followers</p>
+          <img src="images/icon-up.svg" alt="" />
+          <h4>12 Today</h4>
+        </section>
+        <section class="twitter">
+          <div></div>
+          <div>
+            <img src="images/icon-twitter.svg" alt="twitter" />
+            <h2>@nathanf</h2>
+          </div>
+          <h3>1044</h3>
+          <p>Followers</p>
+          <img src="images/icon-up.svg" alt="" />
+          <h4>99 Today</h4>
+        </section>
+        <section class="instagram">
+          <div></div>
+          <div>
+            <img src="images/icon-instagram.svg" alt="instagram" />
+            <h2>@realnathanf</h2>
+          </div>
+          <h3>11k</h3>
+          <p>Followers</p>
+          <img src="images/icon-up.svg" alt="" />
+          <h4>1099 Today</h4>
+        </section>
+        <section class="youtube">
+          <div></div>
+          <div>
+            <img src="images/icon-youtube.svg" alt="youtube" />
+            <h2>Nathan F.</h2>
+          </div>
+          <h3>8239</h3>
+          <p>Subscribers</p>
+          <img src="images/icon-down.svg" alt="" />
+          <h4>144 Today</h4>
+        </section>
+      </div>
+      <h2 class="h2-overview">Overview - Today</h2>
+      <div class="small">
+        <section>
+          <div>
+            <h2>Page Views</h2>
+            <h3>87</h3>
+          </div>
+          <div>
+            <img src="images/icon-facebook.svg" alt="facebook icon " />
+            <p><img src="images/icon-up.svg" alt="" />3%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Likes</h2>
+
+            <h3>52</h3>
+          </div>
+          <div>
+            <img src="images/icon-facebook.svg" alt="facebook icon" />
+
+            <p><img src="images/icon-down.svg" alt="" />2%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Likes</h2>
+            <h3>5462</h3>
+          </div>
+          <div>
+            <img src="images/icon-instagram.svg" alt="instagram icon" />
+            <p><img src="images/icon-up.svg" alt="" />2257%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Profile Views</h2>
+            <h3>52k</h3>
+          </div>
+          <div>
+            <img src="images/icon-instagram.svg" alt="instagram icon" />
+            <p><img src="images/icon-up.svg" alt="" />1375%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Retweets</h2>
+            <h3>117</h3>
+          </div>
+          <div>
+            <img src="images/icon-twitter.svg" alt="twitter icon" />
+            <p><img src="images/icon-up.svg" alt="" />303%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Likes</h2>
+            <h3>507</h3>
+          </div>
+          <div>
+            <img src="images/icon-twitter.svg" alt="twitter icon" />
+            <p><img src="images/icon-up.svg" alt="" />553%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Likes</h2>
+            <h3>107</h3>
+          </div>
+          <div>
+            <img src="images/icon-youtube.svg" alt="youtube icon" />
+            <p><img src="images/icon-down.svg" alt="" />9%</p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Total Views</h2>
+            <h3>1407</h3>
+          </div>
+          <div>
+            <img src="images/icon-youtube.svg" alt="youtube" />
+            <p><img src="images/icon-down.svg" alt="" />12%</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
