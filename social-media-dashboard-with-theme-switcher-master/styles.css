@@ -58,7 +58,6 @@ h6 {
   --Very-Dark-Blue-text: hsl(230, 17%, 14%);
 }
 
- 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -69,6 +68,10 @@ body {
   padding: 16px;
   font-family: Inter, sans-serif;
   background-color: var(--Very-Dark-Blue-dark-bg);
+}
+
+section:hover {
+  background-color: #333a56 !important;
 }
 
 header {
@@ -268,7 +271,7 @@ header {
 
 .dark-mode {
   background-color: white;
- 
+
   section {
     background-color: var(--Light-Grayish-Blue-light-card-bg);
     h3 {
@@ -285,5 +288,8 @@ header {
   }
   .h2-overview {
     color: var(--Dark-Grayish-Blue-light-text);
+  }
+  section:hover {
+    background-color: #e1e3f0 !important;
   }
 }
